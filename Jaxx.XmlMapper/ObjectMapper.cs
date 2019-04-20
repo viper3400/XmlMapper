@@ -11,7 +11,7 @@ namespace Jaxx.XmlMapper
     /// <summary>
     /// Class for mapping source object into destination objects based on a xml map file.
     /// </summary>
-    public class ObjectMapper
+    public class ObjectMapper : IObjectMapper
     {
         /// <summary>
         /// Constructor. Takes the path to the xml map file.
