@@ -14,7 +14,7 @@ dotnet_csproj:
   file_version: '{version}'
   informational_version: '{version}'
 environment:
-  packageVersion:'{version}'
+  packageVersion: '{version}'
 before_build:
 - cmd: >-
     dotnet restore ./Jaxx.XmlMapper/Jaxx.XmlMapper.csproj --verbosity m
