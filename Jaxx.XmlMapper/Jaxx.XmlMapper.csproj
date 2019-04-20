@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Viper3400</Authors>
+    <Company></Company>
+    <PackageProjectUrl>https://github.com/viper3400/XmlMapper</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/viper3400/XmlMapper</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

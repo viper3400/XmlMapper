@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jaxx.XmlMapper", "Jaxx.XmlM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jaxx.XmlMapper.Tests", "Jaxx.XmlMapper.Tests\Jaxx.XmlMapper.Tests.csproj", "{DFF955ED-D9A1-4DC8-B5A0-09E07E65191B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{371D75C8-01A5-4BE8-8E8B-6CF7D24E867B}"
+	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
