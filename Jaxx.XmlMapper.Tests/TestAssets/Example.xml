@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ObjectMapping version="1.0">
+    <Mapping>
+      <src type="string">srcString1</src>     
+      <dest type="string">destStringX</dest>
+    </Mapping>
+    <Mapping>
+      <src type="string">srcString2</src>
+      <dest type="string">destStringY</dest>
+    </Mapping>
+</ObjectMapping>

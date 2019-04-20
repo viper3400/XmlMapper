@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jaxx.XmlMapper", "Jaxx.XmlMapper\Jaxx.XmlMapper.csproj", "{3BED919C-F063-40DE-8A46-399C15EB83C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jaxx.XmlMapper.Tests", "Jaxx.XmlMapper.Tests\Jaxx.XmlMapper.Tests.csproj", "{DFF955ED-D9A1-4DC8-B5A0-09E07E65191B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BED919C-F063-40DE-8A46-399C15EB83C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BED919C-F063-40DE-8A46-399C15EB83C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BED919C-F063-40DE-8A46-399C15EB83C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BED919C-F063-40DE-8A46-399C15EB83C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFF955ED-D9A1-4DC8-B5A0-09E07E65191B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFF955ED-D9A1-4DC8-B5A0-09E07E65191B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFF955ED-D9A1-4DC8-B5A0-09E07E65191B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFF955ED-D9A1-4DC8-B5A0-09E07E65191B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B43B8608-F2BC-4E34-AE01-CCD7CAB1C134}
+	EndGlobalSection
+EndGlobal
