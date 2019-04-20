@@ -18,6 +18,7 @@ install:
 before_build:
 - cmd: >-
     dotnet restore ./Jaxx.XmlMapper/Jaxx.XmlMapper.csproj --verbosity m
+    dotnet restore ./Jaxx.XmlMapper.Tests/Jaxx.XmlMapper.Tests.csproj --verbosity m
 build:
   verbosity: minimal
 test: off
