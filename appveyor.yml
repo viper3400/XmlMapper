@@ -13,8 +13,8 @@ dotnet_csproj:
   assembly_version: '{version}'
   file_version: '{version}'
   informational_version: '{version}'
- environment:
-  package_version: '{version}'
+environment:
+  packageVersion:'{version}'
 before_build:
 - cmd: >-
     dotnet restore ./Jaxx.XmlMapper/Jaxx.XmlMapper.csproj --verbosity m
