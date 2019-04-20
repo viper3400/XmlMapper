@@ -2,8 +2,7 @@ version: 2.0.0.{build}-pre
 branches:
   only:
   - master
-skip_non_tags: false
-image: Visual Studio 2017
+skip_tags: true
 clone_depth: 1
 dotnet_csproj:
   patch: true
@@ -13,16 +12,13 @@ dotnet_csproj:
   assembly_version: '{version}'
   file_version: '{version}'
   informational_version: '{version}'
-install:
-- cmd: ''
 before_build:
 - cmd: >-
     dotnet restore ./Jaxx.XmlMapper/Jaxx.XmlMapper.csproj --verbosity m
-    
+
     dotnet restore ./Jaxx.XmlMapper.Tests/Jaxx.XmlMapper.Tests.csproj --verbosity m
 build:
   verbosity: minimal
-test: off
 artifacts:
 - path: '**\*.nupkg'
   name: XmlMapper
